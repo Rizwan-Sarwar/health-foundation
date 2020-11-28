@@ -1,0 +1,597 @@
+@media only screen and (max-width: 1272px){
+    .nav .menu ul li a{
+        font-size: 12px;
+        padding: 15px 7px;
+    }
+}
+
+@media only screen and (max-width: 1035px){
+    .nav .logo {
+        margin: 10px 0px 10px 10px;
+        width: 85px;
+    }
+    .nav .menu ul li a{
+        font-size: 12px;
+        padding: 15px 7px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .nav{
+        height: 100px;
+    }
+    .nav .logo {
+        margin: 10px 10px;
+        display: flex;
+    }
+    .nav .logo img {
+        width: 80px;
+        height: 80px;
+    }
+    .nav .logo h3 {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 20% 20%;
+    }
+    .nav .menu {
+        display: none;
+    }
+    .nav .donate-or-search{
+        width: 25%;
+        margin: -30px 0px 0px 0px;
+    }
+    .nav .donate-or-search .donate{
+        width: 60%;
+    }
+    .nav .donate-or-search .search{
+        width: 40%;
+    }
+    .nav .donate-or-search .search a {
+        padding: 50px 13px 50px 45px;
+        margin: 0px -13px 0px -40px;
+    }
+    .nav .nav-layer .responsive-navbar-icon{
+        display: block;
+        float: left;
+        margin: 30px 20px 30px 30px;
+    }
+    .nav .nav-layer .responsive-navbar-icon i{
+        font-size: 25px;
+        color: grey;
+        border: 1px solid gray;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    .responsive-menu{
+        width: 300px;
+        background-color: #f8f8f8;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    .responsive-logo{
+        margin: auto;
+        padding: 15px 0px;
+        display: flex;
+        width: 50%;
+    }
+    .responsive-logo img {
+        width: 50px;
+        height: 50px;
+    }
+    .responsive-logo h3 {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 6% 10%;
+        text-transform: capitalize;
+        font-family: serif;
+        color: #000000b0;
+        line-height: 12px;
+    }
+    .responsive-menu ul{
+        list-style-type: none;
+        padding: 20px 0px;
+        margin: 0px;
+        border-top: 1px solid #8080802e;
+    }
+    .responsive-menu ul a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #5f5d5d;
+        padding: 0px;
+        font-size: 16px;
+    }
+    .responsive-menu ul a:hover{
+        text-decoration: underline;
+    }
+    .responsive-menu ul a li{
+        padding: 8px 25px;
+    }
+    .responsive-menu ul a li i{
+        float: right;
+        color: #41a3d3;
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 940px){
+    .nav .donate-or-search{
+        display: inline-block;
+    }
+    .nav .menu {
+        display: none;
+    }
+    .zakat-appeal .zakat-appeal-bottom .zakat-appeal-bottom-box img {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .responsive-menu {
+        width: 220px;
+    }
+    .nav {
+        transform: unset;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-top: unset;
+        margin-top: unset;
+    }
+    .nav .nav-layer {
+        transform: unset;
+        height: 100%;
+    }
+    .nav .nav-layer .nav-top-line {
+        height: 5px;
+    }
+    .nav .nav-layer .responsive-navbar-icon {
+        margin: 35px 0px 35px 10px;
+    }
+    .nav .nav-layer .responsive-navbar-icon i {
+        padding: 3px 5px;
+        font-size: 20px;
+    }
+    .nav .donate-or-search {
+        transform: unset;
+        height: 140%;
+        overflow: hidden;
+    }
+    .nav .donate-or-search .donate {
+        width: 60%;
+        height: 100%;
+    }
+    .nav .donate-or-search .donate a {
+        padding: 80px 0px;
+        margin: unset;
+    }
+    .nav .donate-or-search .donate a span {
+        transform: unset; 
+        top: 45%; 
+    }
+    .nav .donate-or-search .search {
+        width: 40%;
+        height: 100%;
+    }
+    .nav .donate-or-search .search a {
+        padding: 65px 0px;
+        margin: unset;
+    }
+    .nav .donate-or-search .search a img {
+        transform: unset;
+    }
+    .hepatitis {
+        margin: 50px 0px;
+    }
+    .hepatitis .heading {
+        margin-bottom: 30px;
+    }
+    .hepatitis .heading .hepatitis-first-heading {
+        font-size: 1.5rem;
+    }
+    .hepatitis .heading .hepatitis-second-heading {
+        letter-spacing: 2px;
+    }
+    .hepatitis .peragraph .hepatitis-first-peragraph {
+        font-size: 15px;
+        margin-bottom: auto;
+    }
+    .hepatitis .peragraph .hepatitis-second-peragraph {
+        font-size: 15px;
+        margin-bottom: auto;
+    }
+    .side-margin {
+        width: 80%;
+    }
+    .patient-story {
+        margin-bottom: 75vh;
+    }
+    .patient-story .patient-grid {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+    .activities {
+        padding: 30px 0px;
+    }
+    .activities .activities-top .activities-heading h2 {
+        font-size: 21px;
+    }
+    .activities .activities-top .activities-menu-button {
+        display: none;
+    }
+    .activities-bottom .activities-bottom-peragraph {
+        padding: 40px 0px;
+    }
+    .vision .vision-box .vision-box-num h3 span {
+        font-size: 27px;
+    }
+    .vision .vision-box .vision-box-num-blue h3 span {
+        font-size: 27px;
+    }
+    .corpurates .corpurates-heading h1 {
+        font-size: 21px;
+    }
+    .corpurates .corpurates-grid {
+        display: grid;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        grid-template-columns: auto auto auto auto;
+        text-align: center;
+    }
+    .corpurates .corpurates-grid .corpurates-grid-box img {
+        width: 65%;
+    }
+    .zakat-appeal {
+        width: 90%;
+        margin: auto;
+        padding: 50px 0px;
+    }
+    .zakat-appeal .zakat-appeal-top {
+        grid-column-gap: 30px;
+    }
+    .zakat-appeal .zakat-appeal-top .zakat-appeal-top-heading h1 {
+        font-size: 55px;
+    }
+    .zakat-appeal .zakat-appeal-top .zakat-appeal-top-peragraph a {
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+    .zakat-appeal .zakat-appeal-bottom {
+        grid-gap: 0px;
+        grid-row-gap: 10px;
+        text-align: center;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+    .zakat-appeal .zakat-appeal-bottom .zakat-appeal-bottom-box img {
+        width: 50%;
+    }
+    .zakat-appeal .zakat-appeal-bottom .zakat-appeal-bottom-box a {
+        font-size: 16px;
+    }
+    footer .location .location-grid ul .bold {
+        font-size: 16px;
+    }
+    footer .location .location-grid ul li {
+        font-size: 12px;
+    }
+    footer .location .location-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 25px;
+    }
+    footer .media .social-media .social-media-or-form {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: unset;
+    }
+    footer .media .social-media .social-media-or-form .social-media-icons {
+        text-align: center;
+    }
+    footer .media .social-media .social-media-or-form .social-media-form-icon {
+        display: none;
+    }
+    .after-footer .after-footer-menu ul li a {
+        font-size: 12px;
+        padding: 13px 5px;
+    }
+    .members {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .members .copy-rights {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10px;
+    }
+    .members .copy-rights .copy-right-heading {
+        margin-top: 40px;
+        text-align: right;
+    }
+    .members .members-of .members-company {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+    }
+    .members .members-of .members-company .member-img img {
+        width: 65%;
+        padding: 15px 0px;
+    }
+}
+@media only screen and (max-width: 555px){
+    .responsive-menu {
+        width: 180px;
+    }
+    .nav {
+        height: 80px;
+    }
+    .nav .nav-layer .responsive-navbar-icon {
+        margin: 25px 0px 25px 10px;
+    }
+    .nav .logo {
+        margin: 7px 10px;
+        display: flex;
+    }
+    .nav .logo img {
+        width: 40px;
+        height: 40px;
+        margin-top: 12px;
+    }
+    .nav .logo h3 {
+        font-size: 10px;
+        font-weight: 600;
+        margin: 20% 10%;
+    }
+    .nav .donate-or-search {
+        width: 30%;
+    }
+    .nav .donate-or-search .donate a {
+        padding: 65px 0px;
+        font-size: 13px;
+    }
+    .nav .donate-or-search .search a {
+        padding: 55px 0px;
+        font-size: 13px;
+    }
+    .nav .donate-or-search .search a img {
+        width: 40%;
+    }
+    .hepatitis .heading .hepatitis-first-heading {
+        font-size: 1rem;
+    }
+    .hepatitis .heading .hepatitis-second-heading {
+        letter-spacing: 3px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .hepatitis .peragraph .hepatitis-first-peragraph {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .hepatitis .peragraph .hepatitis-second-peragraph {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .patient-story {
+        margin-bottom: 125vh;
+    }
+    .patient-story .patient-story-heading h2 {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+    .patient-story .patient-story-heading p {
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    .patient-story .patient-grid {
+        width: 70%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .patient-story .patient-grid .grid img {
+        width: 65%;
+    }
+    .patient-story .patient-grid .grid .patient-name {
+        font-size: 15px;
+    }
+    .patient-story .patient-grid .grid .patient-type {
+        font-size: 13px;
+    }
+    .activities .activities-top .activities-heading h2 {
+        font-size: 17px;
+    }
+    .activities .activities-top .activities-icon {
+        width: 15%;
+        opacity: 0.6;
+        float: right;
+        margin-top: 5px;
+    }
+    .activities .activities-top .activities-icon .menu img {
+        width: 27px;
+    }
+    .activities-bottom {
+        grid-template-columns: 100%;
+        grid-column-gap: 0px;
+    }
+    .activities-bottom .activities-bottom-peragraph {
+        padding: 10px 0px 40px 0px;
+    }
+    .vision .vision-heading h1 {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .vision .vision-heading h1 .our-vision{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .vision .vision-box .vision-box-num h3{
+        padding: 0px 5px;
+        font-size: 13px;
+    }
+    .vision .vision-box .vision-box-num h3 span {
+        font-size: 21px;
+    }
+    .vision .vision-box .vision-box-num-blue h3{
+        padding: 0px 5px;
+        font-size: 13px;
+    }
+    .vision .vision-box .vision-box-num-blue h3 span {
+        font-size: 21px;
+    }
+    .corpurates .corpurates-heading h1 {
+        font-size: 18px;
+    }
+    .corpurates .corpurates-grid {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-row-gap: 10px;
+    }
+    .zakat-appeal {
+        padding: 20px 0px;
+    }
+    .zakat-appeal .zakat-appeal-top {
+        grid-column-gap: 0px;
+        grid-template-columns: 100%;
+    }
+    .zakat-appeal .zakat-appeal-top .zakat-appeal-top-heading h1 {
+        font-size: 45px;
+    }
+    .zakat-appeal .zakat-appeal-top .zakat-appeal-top-peragraph {
+        padding: 0px 50px;
+    }
+    .zakat-appeal .zakat-appeal-top .zakat-appeal-top-peragraph p {
+        text-align: justify;
+        font-size: 13px;
+    }
+    .zakat-appeal .zakat-appeal-top .zakat-appeal-top-peragraph a {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+    .zakat-appeal .zakat-appeal-bottom {
+        grid-template-columns: 50% 50%;
+    }
+    .zakat-appeal .zakat-appeal-bottom .zakat-appeal-bottom-box a {
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    footer .location .location-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-row-gap: 18px;
+    }
+    footer .media .social-media .social-media-or-form .social-media-icons ul li a img {
+        width: 50%;
+    }
+    footer .media .social-media .social-media-or-form .social-media-input a {
+        padding: 23px 12px;
+        font-size: 16px;
+    }
+    footer .media .social-media .social-media-or-form .social-media-input input {
+        width: 40%;
+    }
+    .members .copy-rights .logo img {
+        width: 40px;
+        height: 40px;
+        margin: -20px 0px 0px 0px;
+    }
+    .members .copy-rights .logo h3 {
+        font-size: 10px;
+    }
+    .members .copy-rights .copy-right-heading p {
+        font-size: 11px;
+        margin: -10px 0px 0px 0px;
+    }
+    .members .members-heading h3 {
+        font-size: 16px;
+    }
+    .members .members-of .members-company .member-img img {
+        width: 70%;
+        padding: 15px 0px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .nav .donate-or-search .donate a {
+        font-size: 11px;
+    }
+    .patient-story {
+        height: 75vh;
+        margin-bottom: 50vh;
+    }
+    .patient-story .patient-grid {
+        width: 70%;
+        grid-template-columns: 50% 50%;
+    }
+    .patient-story .patient-grid .grid {
+        border-bottom: 1px solid #ececec;
+        padding: 25px 0px;
+    }
+    .activities .activities-top{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .activities .activities-top .activities-heading {
+        width: 100%;
+    }
+    .activities .activities-top .activities-heading h2 {
+        font-size: 21px;
+    }
+    .activities .activities-top .activities-icon {
+        width: 100%;
+        float: unset;
+        margin-top: 15px;
+    }
+    .activities .activities-top .activities-icon .menu {
+        float: unset;
+        text-align: center;
+    }
+    .activities .activities-top .activities-icon .menu .drop-down {
+        right: 38%;
+        margin: 10px 0px;
+    }
+    .vision {
+        margin: 60px 0px 200px 0px;
+        height: 50vh;
+    }
+    .vision .vision-box {
+        grid-template-columns: 100%;
+    }
+    .vision .vision-box .vision-box-num h3 span {
+        font-size: 26px;
+    }
+    .vision .vision-box .vision-box-num-blue h3 span {
+        font-size: 26px;
+    }
+    .corpurates .corpurates-grid {
+        grid-template-columns: 50% 50%;
+        grid-gap: 0px;
+    }
+    .corpurates .corpurates-grid .corpurates-grid-box {
+        border: 1px solid gray;
+    }
+    .zakat-appeal .zakat-appeal-bottom {
+        grid-template-columns: 100%;
+        width: 80%;
+        grid-row-gap: 25px;
+        margin: 0px auto;
+    }
+    footer .location .location-grid ul .bold {
+        font-size: 15px;
+    }
+    footer .location .location-grid ul li {
+        font-size: 11px;
+    }
+    footer .media .social-media {
+        width: 90%;
+        margin: auto;
+    }
+    footer .media .social-media .social-media-or-form .social-media-icons ul li a img {
+        width: 45%;
+    }
+    footer .media .social-media .social-media-or-form .social-media-input input {
+        width: 37%;
+        font-size: 11px;
+    }
+    footer .media .social-media .social-media-or-form .social-media-input a {
+        padding: 25px 10px;
+        font-size: 13px;
+    }
+}
